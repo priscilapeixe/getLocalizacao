@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:Tools="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#000000"
+    Tools:context="MainActivity"
+    tools:ignore="ExtraText">/
+
+    <TextView
+    android:id="@+id/txtLatitude"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Latitude"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+    android:id="@+id/txtCidade"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/textLongitude"
+    android:text="Cidade"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+        tools:ignore="HardcodedText,SpUsage,UnknownId" />
+
+  <TextView
+    android:id="@+id/textEstado"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/txtCidade"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+    tools:ignore="SpUsage" />
+
+  <TextView
+    android:id="@+id/textPais"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/textEstado"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+    tools:ignore="SpUsage" />
+
+
+</RelativeLayout>
+
